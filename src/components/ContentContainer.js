@@ -9,16 +9,14 @@ import Resume from './pages/Resume';
 // import '../App.css';
 import Footer from './Footer';
 
-export default function PortfolioContainer() {
+export default function ContentContainer() {
     const [currentPage, setCurrentPage] = useState('about'); // defaults to about me page
 
     const renderPage = () => { // renders appropriate component relative to value of 'currentPage'
-        if (currentPage === 'about') { 
-            return <About />;
-         }
+        if (currentPage === 'about') { return <About />; }
         if (currentPage === 'portfolio') { return <Portfolio />; }
-        if (currentPage === 'contact'){ return <Contact />; }
-        if (currentPage === 'resume'){ return <Resume />; }
+        if (currentPage === 'contact') { return <Contact />; }
+        if (currentPage === 'resume') { return <Resume />; }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);

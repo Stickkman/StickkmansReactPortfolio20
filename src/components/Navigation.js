@@ -21,24 +21,10 @@ export default function Navbar({currentPage, handlePageChange}) {
                 <li><a href='#contact' onClick={() => handlePageChange('contact')}
                 className={(currentPage === 'contact') ? 'navActive' : 'navInactive'}
                 >Contact Me</a></li>
+           
+            </ul>
 
-
-
-
-
-
-            {/* <li>
-                <a href='/porfolio'>Portfolio</a>
-            </li>    
-            <li>
-                <a href='/contact'>Contact</a>
-            </li>
-            <li>
-                <a href='/resume'>Resume</a>
-            </li> */}
-        </ul>
-
-    </nav>
+        </nav>
         
     )
 }
