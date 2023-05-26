@@ -1,15 +1,9 @@
-import React from "react";
-import Header from "./components/Header";
+import React from 'react';
+import ContentContainer from './components/ContentContainer'; 
 
-
-function App() {
-  return (
-    <div className="App">
-      <Header />
-        
-      
-    </div>
-  );
-}
+const App = () => <ContentContainer />;
 
 export default App;
+
+
+

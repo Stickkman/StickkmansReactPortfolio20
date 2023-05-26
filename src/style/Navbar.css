@@ -1,0 +1,36 @@
+/* NAVIGATION STLYE */
+nav {
+    display: flex ;
+    position:absolute;
+    justify-content: flex-end;
+    align-items:flex-end;
+    transform: translate(1200px, 30px);
+    
+}
+
+.nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* NAVIGATION LINK STYLE */
+nav a {
+    display:flex;
+    color: var(--neonblue);
+    margin-right: 14px;
+}
+/* NAVIGATION LIST ITEM STYLE */
+nav li {
+display:flex;
+font-size: 2em;
+gap: 1rem !important; 
+
+}
+
+.navActive {
+/* active style here */
+}
+
+.navInactive {
+/* inactive style here */
+}
