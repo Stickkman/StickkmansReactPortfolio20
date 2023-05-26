@@ -1,7 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap'); */
+
 /* COLOR VARIABLES */
 :root {
     --black: #131516;
     --neonblue: #12d0f1; 
+    --brightNeonBlue: #32e0ff; 
 }
 
 
@@ -14,6 +17,7 @@ header {
     
    
 }
+
 /* HEADER H1 STLYE */
  h1 {
     background: var(--neonblue);
@@ -25,7 +29,83 @@ header {
      
 }
 
+.myName {
+    position: absolute;
+    /* font-family: 'Neonderthaw'; */
+    font-size: 50px;
+    color: var(--brightNeonBlue);
+    /* background: var(--black); */
+    letter-spacing: 1px;
+    text-shadow: 
+        0 0 2px #000,
+        0 0 5px #ffffff00, 
+        0 0 10px #ffffff00, 
+        0 0 20px #0ff, 
+        0 0 40px #0ff,
+        0 0 50px #0ff;
+        
+        /* 0 0 80px #0ff, 
+        0 0 90px #0ff, 
+        0 0 100px #0ff, 
+        0 0 150px #0ff;  */
+}
+
+/* individual letter flickering */
+.myName span {
+    animation: flicker 500ms linear;
+}
+
+.myName .delay1 {
+    animation-delay: 1.8s;
+}
+
+.myName .delay2 {
+    animation-delay: 2.4s;
+}
+
+@keyframes flicker {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    20% {opacity: 0;}
+    40% {opacity: 1;}
+    50% {opacity: 0;}
+    60% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 img {
     width: 100%;
     height: 300px;   
 }
+
+
+/* @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+  
+  /* .flickering-text {
+    display: inline-block;
+  }
+  
+  .flickering-text span {
+    display: inline-block;
+    animation: flicker 1s infinite;
+  }
+  
+  .flickering-text span:nth-child(odd) {
+    animation-delay: 0.1s;
+  }
+  
+  .flickering-text span:nth-child(even) {
+    animation-delay: 0.2s;
+  }
+ */ 
