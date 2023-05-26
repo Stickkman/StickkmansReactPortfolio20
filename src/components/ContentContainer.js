@@ -25,9 +25,9 @@ export default function ContentContainer() {
        <div>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} /> 
         {/* renderPage returns component based on currentPage, uses state  */}
-        <body>
+        <main>
         {renderPage()} 
-        </body>
+        </main>
         <Footer />
          console.log({currentPage})
        </div>
