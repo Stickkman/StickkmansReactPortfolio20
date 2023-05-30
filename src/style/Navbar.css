@@ -86,16 +86,23 @@ nav a:hover {
 
 
 .navActive {
-/* active style here */
+/* glow effect for active nav item */
 color: var(--brightNeonBlue);
-
 text-shadow: 
-0 0 2px #000,
+/* 0 0 2px #000,
 0 0 5px #ffffff00, 
 0 0 10px #ffffff00, 
 0 0 20px #0ff, 
 0 0 40px #0ff,
+0 0 50px #0ff; */
+
+0 0 2px #00ffffff,
+0 0 0px #ffffff,
+0 0 10px #ffffff,
+0 0 20px #0ff, 
+0 0 40px #0ff,
 0 0 50px #0ff;
+
 
 
 

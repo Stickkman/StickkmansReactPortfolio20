@@ -34,9 +34,10 @@ header {
 }
 
 .myName {
-    position: absolute;
+  display: flex;  
+  position: absolute;
     /* font-family: 'Neonderthaw'; */
-    font-size: 50px;
+    font-size: 40px;
     color: var(--brightNeonBlue);
     /* background: var(--black); */
     letter-spacing: 1px;
@@ -47,6 +48,13 @@ header {
         0 0 20px #0ff, 
         0 0 40px #0ff,
         0 0 50px #0ff;
+    
+    background-color: var(--black);
+    padding: 7px;
+    margin-left: 3vw;
+    margin-top: 1.5%;   
+    border-radius: 5px;
+    box-shadow: 0 0 15px 2px #32e0ff;      
         
         /* 0 0 80px #0ff, 
         0 0 90px #0ff, 
