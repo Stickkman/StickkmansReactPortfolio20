@@ -15,20 +15,25 @@
 }
 
 .profilePic {
+    
     position: relative;
+    margin-bottom: 3%;
     width: 230px;
     height: 200px;
     border-radius: 7px;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: 0 0 20px 8px #22dbfc;
   }
 
 .aboutText {
     margin: 0 10%;
-    padding: 1%;
     text-align: center;
     background-color: rgba(var(--black), 0.5);
-    line-height: 1.4rem;
+    line-height: 1.5rem;
+    font-size: 18px;
+    padding: 2% 1% 3%;
+    
     
 }
 
