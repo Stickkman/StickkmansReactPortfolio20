@@ -1,0 +1,42 @@
+/* About Me Page Styles */
+
+/* COLOR VARIABLES */
+:root {
+    --black: #131516;
+    --neonblue: #12d0f1; 
+    --brightNeonBlue: #32e0ff; 
+}
+
+.pageWrapper {
+    margin-top: 2px;
+    
+ 
+    
+}
+
+.profilePic {
+    position: relative;
+    width: 230px;
+    height: 200px;
+    border-radius: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+.aboutText {
+    margin: 0 10%;
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(var(--black), 0.5);
+    line-height: 1.4rem;
+    
+}
+
+h1 {
+    margin-top: 0px;
+    color: black;
+    line-height: 1;
+    
+    /* height: auto; */
+}
+
