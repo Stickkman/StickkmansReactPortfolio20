@@ -29,7 +29,7 @@ const projects = [
         screenshot: ssGambMani, alt: 'screenshot of Gambling Manifesto App',
         repoLink: 'https://github.com/Stickkman/gamblingManifesto-Proj01',
         deployedLink: 'https://stickkman.github.io/gamblingManifesto-Proj01/',
-        desc: '(Team Collaboration) - This app provides instant access to football odds, weather conditions, team stats, and wagering tips for beginners. Balance work and play effortlessly, enjoy the best of both worlds!'
+        desc: '(Team Collaboration) - This app provides access to football odds, weather, team stats, and tips for beginners. Balance work and play, enjoy the best of both worlds!'
     },
     {
         id: 4, title: 'Team Profile Gen',
