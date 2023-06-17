@@ -1,0 +1,38 @@
+/* styles for contact form/page */
+
+.pageWrapper {
+    margin-top: 2px;
+}
+
+.formContainer {
+display:flex;
+justify-content: center;
+/* align-items: center; */
+/* position: relative; */
+background: white;
+/* width: 70%; */
+padding: 2%;
+margin-top: 4%;
+}
+
+.formStyle {
+
+}
+
+.formItem {
+    line-height: 2.5rem;
+    border-radius: 5px;
+}
+
+
+.textBox {
+
+}
+
+.mailIcon {
+
+}
+
+.submitButton {
+
+}
