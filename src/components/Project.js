@@ -22,7 +22,7 @@ const projects = [
         screenshot: ssWeatherDash, alt: 'screenshot of Weather Dashboard App',
         repoLink: 'https://github.com/Stickkman/weatherDashboard06',
         deployedLink: 'https://stickkman.github.io/weatherDashboard06/',
-        desc: 'Search for any city and this app returns both the current weather conditions as well as the 5 day forecast.  Useful for travel planning!'
+        desc: 'Search for any city and this application returns both the current weather conditions as well as the 5 day forecast.  Useful for travel planning!'
     },
     {
         id: 3, title: 'Gambling Manifesto',
@@ -50,7 +50,7 @@ const projects = [
         screenshot: ssPlanner, alt: 'screenshot of Daily Planner App',
         repoLink: 'https://github.com/Stickkman/dailyPlanner05',
         deployedLink: 'https://stickkman.github.io/dailyPlanner05/',
-        desc: 'This time management app helps you efficiently plan your day. Enter tasks for each hour that are color-coded based on past, present, and future. No worries of data loss with included peristant storage.'
+        desc: 'Time management app helps you efficiently plan your day. Enter tasks for each hour, color-coded based on past/present/future. No worries of data loss with peristant storage.'
     },
 ]
 
