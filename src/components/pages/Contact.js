@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import {validateEmail} from '../../utils/helpers'
 import '../../style/Contact.css';
-import {FiMail} from 'react-icons/fi';
+import {FiUser, FiMail, FiMessageSquare, FiSend} from 'react-icons/fi';
 
 export default function Contact() {
     
@@ -51,37 +51,38 @@ export default function Contact() {
                 <form className='formStyle' onSubmit={handleFormSubmit}>
                 {/* checks for a value in error message, if there is one, display it */}
                 {errorMessage && (<p>{errorMessage}</p>)}
-                <div className='formItem'>    
-                    <label>Name: </label>
+            <div className='nameEmailInline'>
+                <div className='inputGroup'>    
+                <label><FiUser className='icons' /> Your Name </label> 
                     <input 
                      type='text'
                      name='name' 
                      value={formData.name}
-                     onChange={handleInputChange}
-                     placeholder='Enter your Name' />
+                     onChange={handleInputChange} />
                 </div>
 
-                <div className='formItem'>    
-                    <label>Email: </label>
+                <div className='inputGroup'>    
+                <label><FiMail className='icons' /> Your Email </label>
                     <input 
+                     required
                      type='email'
                      name='email' 
                      value={formData.email}
-                     onChange={handleInputChange}
-                     placeholder='Enter your Email' />
+                     onChange={handleInputChange} />
                 </div>
 
-                <div className='formItem'>    
-                    <label>Message: </label>
-                    <textarea className='textBox' 
+            </div>
+                <div className='inputGroup'>    
+                <label><FiMessageSquare className='icons' /> Your Message </label>
+                    <textarea className='textBox'
+                     rows='8' 
                      name='message' 
                      value={formData.message}
-                     onChange={handleInputChange}
-                     placeholder='-- Your Message Here --'>
+                     onChange={handleInputChange}>
                      </textarea>
                 </div>
                     <button className='submitButton'
-                    type='submit'>Send</button><FiMail className='mailIcon' />
+                    type='submit'>SEND <FiSend className='icons' /></button>
             </form>
             </div>
 
