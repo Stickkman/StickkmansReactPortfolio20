@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/stickkmansReactPortfolio20/static/css/main.de48bee8.css",
+    "main.js": "/stickkmansReactPortfolio20/static/js/main.d85af2f7.js",
+    "static/media/ssProj03.jpg": "/stickkmansReactPortfolio20/static/media/ssProj03.4a3d851b23b1c68f6daf.jpg",
+    "static/media/ssProj01.jpg": "/stickkmansReactPortfolio20/static/media/ssProj01.a6dd14c725cb5870d43c.jpg",
+    "static/media/ssWeatherApp.jpg": "/stickkmansReactPortfolio20/static/media/ssWeatherApp.b9a87fa15cefa9f4b615.jpg",
+    "static/media/banner.jpg": "/stickkmansReactPortfolio20/static/media/banner.050ec96193db27cce838.jpg",
+    "static/media/ssTeamProfileGen.jpg": "/stickkmansReactPortfolio20/static/media/ssTeamProfileGen.1bf658210326ee7df6e9.jpg",
+    "static/media/Craig.jpg": "/stickkmansReactPortfolio20/static/media/Craig.26dcb7f5d457d132d8ec.jpg",
+    "static/media/ssQuiz.jpg": "/stickkmansReactPortfolio20/static/media/ssQuiz.19c4c0fb880ebc582e8b.jpg",
+    "static/media/ssPlanner.jpg": "/stickkmansReactPortfolio20/static/media/ssPlanner.28fdf0b68b55be1263e2.jpg",
+    "index.html": "/stickkmansReactPortfolio20/index.html",
+    "main.de48bee8.css.map": "/stickkmansReactPortfolio20/static/css/main.de48bee8.css.map",
+    "main.d85af2f7.js.map": "/stickkmansReactPortfolio20/static/js/main.d85af2f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de48bee8.css",
+    "static/js/main.d85af2f7.js"
+  ]
+}
