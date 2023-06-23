@@ -68,3 +68,20 @@ h1 {
     100% {opacity: 1; filter: brightness(0.5);}
 }
 
+/* media queries for smallest screen*/
+
+@media screen and (max-width: 425px) {
+
+    .aboutText {
+
+        line-height: 1.4rem;
+        font-size: 19px; 
+        padding: 3% 2% 6%;
+
+    }
+
+    .profilePic {
+        
+        margin-bottom: 5%;
+    }
+}

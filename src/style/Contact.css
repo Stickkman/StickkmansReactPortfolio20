@@ -61,8 +61,11 @@ label {
 }
 
 @media (200px <= width <=950px) {
+
     .nameEmailInline {
+
         gap: 1rem;
+        
     }
 }
 

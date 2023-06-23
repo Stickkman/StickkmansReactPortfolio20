@@ -121,4 +121,91 @@ img {
   .flickering-text span:nth-child(even) {
     animation-delay: 0.2s;
   }
- */ 
+ */
+ 
+ /*--------- media queries -----------*/
+
+/* medium screens */
+ @media screen and (min-width: 520px) and (max-width: 890px) {
+
+   header {
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+   
+    align-items: center;
+   
+        
+   }
+
+   img {
+    height: 200px;
+   }
+
+   .myName {
+    margin-left: 0vw;
+   }
+ }
+
+ 
+ /* small screens */
+ @media screen and (min-width: 426px) and (max-width: 519px) {
+  
+  .myName {
+
+    font-size: 35px;
+    margin-left: 0vw;
+    
+  }
+  
+  header {
+  
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+   
+   }
+   
+   img {
+
+    height: 175px;
+
+   }
+}
+ 
+  /* smallest screens */
+ @media screen and (max-width: 425px) {
+
+  .myName {
+    font-size: 30px;
+    margin-left: 0vw;
+  }
+  
+  header {
+  
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+   }
+   
+   img {
+
+    height: 150px;
+
+   }
+ 
+   h1 {
+
+    padding: 10px;
+    font-size: 1.8rem;
+
+   }
+ 
+}  
+
+
+ 

@@ -3,7 +3,7 @@
 /* COLOR VARIABLES */
 :root {
     --black: #131516;
-      
+    --blackOpacity: rgba(0, 0, 0, 0.78);   
     --neonblue: #12d0f1; 
     --brightNeonBlue: #32e0ff; 
 }
@@ -71,12 +71,6 @@ nav a:hover {
 /* glow effect for active nav item */
 color: var(--brightNeonBlue);
 text-shadow: 
-/* 0 0 2px #000,
-0 0 5px #ffffff00, 
-0 0 10px #ffffff00, 
-0 0 20px #0ff, 
-0 0 40px #0ff,
-0 0 50px #0ff; */
 
 0 0 2px #00ffffff,
 0 0 0px #ffffff,
@@ -92,4 +86,95 @@ text-shadow:
 
 .navInactive {
 /* inactive style here */
+}
+
+/* -------------media queries----------- */
+
+/* medium screens */
+@media screen and (min-width: 520px) and (max-width: 890px) {
+    .navContainer {
+        display: flex;
+        flex-direction: row;
+        margin-left: -15px;
+        justify-content: center;
+        top: 12%;
+        background-color: var(--blackOpacity);
+        
+          
+          
+            
+    }
+        .navContainer ul {
+            display: flex;
+            /* padding-left: 5px; */
+            /* justify-content: space-around; */
+            /* align-content: space-around; */
+            
+        }
+
+        nav li {
+            /* display:flex; flex-direction: row; */
+            font-size: 1.5em; 
+            /* justify-content: space-around;     */
+        }
+
+        nav a {
+           
+        }
+        
+
+    }
+
+    
+    /* small screens */
+    @media screen and (min-width: 426px) and (max-width: 519px) {
+
+        .navContainer {
+            display: flex;
+            flex-direction: row;
+            margin-left: -15px;
+            justify-content: center;
+            top: 11%;
+            background-color: var(--blackOpacity);
+        }
+        
+        .navContainer ul {
+            display: flex;
+            /* padding-left: 0px; */
+        }
+
+        nav li {
+            font-size: 1.2em;
+        }
+    }
+
+
+/* smallest screens */
+
+@media screen and (max-width:425px) {
+    
+    .navContainer {
+
+        display: flex;
+        flex-direction: row;
+        margin-left: -15px;
+        justify-content: center;
+        top: 10%;
+        background-color: var(--blackOpacity);
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+    
+    .navContainer ul {
+
+        display: flex;
+        
+    }
+
+    nav li {
+
+        font-size: 0.9em;
+        
+    }
 }
