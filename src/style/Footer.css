@@ -33,3 +33,14 @@
       opacity: 1;
     }
   }
+
+  /* media queries smallest screen*/
+@media screen and (max-width: 425px) {
+
+  .footerIcons {
+    
+    font-size: 2.2rem;
+    margin: 0 20px;
+   
+  }
+}
