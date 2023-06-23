@@ -60,14 +60,7 @@ label {
 
 }
 
-@media (200px <= width <=950px) {
 
-    .nameEmailInline {
-
-        gap: 1rem;
-        
-    }
-}
 
 .icons {
 
@@ -100,3 +93,36 @@ textarea:focus {
 
 }
 
+
+
+/*------------ media queries -------------*/
+
+/* medium screens */
+@media screen and (min-width: 426px) and (max-width: 890px) {
+
+    .nameEmailInline {
+
+        gap: 1rem;
+    }
+
+    .formContainer {
+       
+        margin: 5% 15%; 
+    }
+}
+
+/* smallest screens */
+@media screen and (max-width: 425px) {
+
+    .nameEmailInline {
+
+        gap: 1rem;
+
+        }
+
+    .formContainer {
+           
+            margin: 8% 8%; 
+
+        }
+    }
