@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/stickkmansReactPortfolio20/static/css/main.de48bee8.css",
+    "main.css": "/stickkmansReactPortfolio20/static/css/main.8c992400.css",
     "main.js": "/stickkmansReactPortfolio20/static/js/main.d85af2f7.js",
     "static/media/ssProj03.jpg": "/stickkmansReactPortfolio20/static/media/ssProj03.4a3d851b23b1c68f6daf.jpg",
     "static/media/ssProj01.jpg": "/stickkmansReactPortfolio20/static/media/ssProj01.a6dd14c725cb5870d43c.jpg",
@@ -11,11 +11,11 @@
     "static/media/ssQuiz.jpg": "/stickkmansReactPortfolio20/static/media/ssQuiz.19c4c0fb880ebc582e8b.jpg",
     "static/media/ssPlanner.jpg": "/stickkmansReactPortfolio20/static/media/ssPlanner.28fdf0b68b55be1263e2.jpg",
     "index.html": "/stickkmansReactPortfolio20/index.html",
-    "main.de48bee8.css.map": "/stickkmansReactPortfolio20/static/css/main.de48bee8.css.map",
+    "main.8c992400.css.map": "/stickkmansReactPortfolio20/static/css/main.8c992400.css.map",
     "main.d85af2f7.js.map": "/stickkmansReactPortfolio20/static/js/main.d85af2f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.de48bee8.css",
+    "static/css/main.8c992400.css",
     "static/js/main.d85af2f7.js"
   ]
 }
