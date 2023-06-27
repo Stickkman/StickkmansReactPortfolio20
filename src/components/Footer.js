@@ -12,7 +12,7 @@ export default function Footer() {
             </a>
             <a className='footerIcons' target='_blank' rel='noreferrer' title='LinkedIn Profile Coming Soon'
             //  replace with linkedin profile when created
-             href='https://github.com/Stickkman'> 
+             href='https://www.linkedin.com/in/stickkman/'> 
              <FiLinkedin />       
             </a>
 
