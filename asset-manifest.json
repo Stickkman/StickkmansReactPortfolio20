@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stickkmansReactPortfolio20/static/css/main.8c992400.css",
-    "main.js": "/stickkmansReactPortfolio20/static/js/main.0ac6ff70.js",
+    "main.js": "/stickkmansReactPortfolio20/static/js/main.92a6b87b.js",
     "static/media/ssProj03.jpg": "/stickkmansReactPortfolio20/static/media/ssProj03.4a3d851b23b1c68f6daf.jpg",
     "static/media/ssProj01.jpg": "/stickkmansReactPortfolio20/static/media/ssProj01.a6dd14c725cb5870d43c.jpg",
     "static/media/ssWeatherApp.jpg": "/stickkmansReactPortfolio20/static/media/ssWeatherApp.b9a87fa15cefa9f4b615.jpg",
@@ -12,10 +12,10 @@
     "static/media/ssPlanner.jpg": "/stickkmansReactPortfolio20/static/media/ssPlanner.28fdf0b68b55be1263e2.jpg",
     "index.html": "/stickkmansReactPortfolio20/index.html",
     "main.8c992400.css.map": "/stickkmansReactPortfolio20/static/css/main.8c992400.css.map",
-    "main.0ac6ff70.js.map": "/stickkmansReactPortfolio20/static/js/main.0ac6ff70.js.map"
+    "main.92a6b87b.js.map": "/stickkmansReactPortfolio20/static/js/main.92a6b87b.js.map"
   },
   "entrypoints": [
     "static/css/main.8c992400.css",
-    "static/js/main.0ac6ff70.js"
+    "static/js/main.92a6b87b.js"
   ]
 }
