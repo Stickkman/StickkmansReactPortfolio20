@@ -29,7 +29,8 @@ export default function ContentContainer() {
         {renderPage()} 
         </main>
         <Footer />
-         console.log({currentPage})
+         {/* console.log({currentPage}) */}
+         Last Updated: June 2023
        </div>
     );
 }
